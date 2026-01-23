@@ -4,9 +4,9 @@ import edu.cmu.cs.cs214.lab02.shapes.*;
 
 public class Main {
     public static void main(String[] args) {
-        Rectangle rectangle = new Rectangle(2, 3);
-        Circle circle = new Circle(1);
-        Square square = new Square(3);
+        Shape rectangle = new Rectangle(2, 3);
+        Shape circle = new Circle(1);
+        Shape square = new Square(3);
 
         Renderer renderer1 = new Renderer(rectangle);
         Renderer renderer2 = new Renderer(circle);
